@@ -1,0 +1,19 @@
+# .NET build output
+bin/
+obj/
+*.user
+.vs/
+TestResults/
+
+# Node
+node_modules/
+dist/
+
+# Secrets / local config
+.env
+*.env.local
+appsettings.*.local.json
+
+# OS / editor
+.DS_Store
+Thumbs.db
