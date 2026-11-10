@@ -1,0 +1,26 @@
+<Solution>
+  <Folder Name="/src/" />
+  <Folder Name="/src/BuildingBlocks/">
+    <Project Path="src/BuildingBlocks/Pharmacy.BuildingBlocks.Application/Pharmacy.BuildingBlocks.Application.csproj" />
+    <Project Path="src/BuildingBlocks/Pharmacy.BuildingBlocks.Contracts/Pharmacy.BuildingBlocks.Contracts.csproj" />
+    <Project Path="src/BuildingBlocks/Pharmacy.BuildingBlocks.Domain/Pharmacy.BuildingBlocks.Domain.csproj" />
+    <Project Path="src/BuildingBlocks/Pharmacy.BuildingBlocks.Infrastructure/Pharmacy.BuildingBlocks.Infrastructure.csproj" />
+    <Project Path="src/BuildingBlocks/Pharmacy.BuildingBlocks.Web/Pharmacy.BuildingBlocks.Web.csproj" />
+  </Folder>
+  <Folder Name="/src/Host/">
+    <Project Path="src/Host/Pharmacy.Host/Pharmacy.Host.csproj" />
+  </Folder>
+  <Folder Name="/src/Modules/" />
+  <Folder Name="/src/Modules/Organization/">
+    <Project Path="src/Modules/Organization/Pharmacy.Modules.Organization.Application/Pharmacy.Modules.Organization.Application.csproj" />
+    <Project Path="src/Modules/Organization/Pharmacy.Modules.Organization.Contracts/Pharmacy.Modules.Organization.Contracts.csproj" />
+    <Project Path="src/Modules/Organization/Pharmacy.Modules.Organization.Domain/Pharmacy.Modules.Organization.Domain.csproj" />
+    <Project Path="src/Modules/Organization/Pharmacy.Modules.Organization.Infrastructure/Pharmacy.Modules.Organization.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Pharmacy.ArchitectureTests/Pharmacy.ArchitectureTests.csproj" />
+    <Project Path="tests/Pharmacy.BuildingBlocks.Tests/Pharmacy.BuildingBlocks.Tests.csproj" />
+    <Project Path="tests/Pharmacy.IntegrationTests/Pharmacy.IntegrationTests.csproj" />
+    <Project Path="tests/Pharmacy.TestKit/Pharmacy.TestKit.csproj" />
+  </Folder>
+</Solution>
