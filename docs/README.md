@@ -94,7 +94,15 @@ Original owner inputs are kept unchanged: `1. Project Vision.md`, `2. Master SDD
 - [x] Final validation: 0 errors, 0 warnings, 0 broken links
 - [x] Implementation execution plan (Superpowers `writing-plans`): task index for all phases + step-level Phase 0 plan
 
-### Next (implementation; not started)
-- [ ] Owner decision: create git repository
-- [ ] Send the regulatory questions pack (REGULATORY-CONSIDERATIONS-EGYPT §4)
-- [ ] Execute T-0.1 (solution skeleton + architecture tests)
+### Implementation progress (Phase 0 — see [execution plan](superpowers/plans/2026-11-10-implementation-execution-plan.md))
+- [x] T-0.1 solution skeleton, health endpoint, AT-01 architecture test
+- [x] T-0.2 Money value object (BR-G-18)
+- [x] T-0.3 Result/Error + RFC 9457 Problem Details
+- [x] T-0.8 frontend shell (i18next ar/en, RTL/LTR, themes, Tailwind)
+- [ ] T-0.4 … T-0.7 tenant context + RLS, gapless numbering, idempotency, outbox/audit: **blocked — need Docker (Testcontainers PostgreSQL 17); Docker is not installed on the dev machine**
+- [ ] T-0.9 Docker Compose + CI (also needs Docker to verify locally)
+- [ ] T-0.10 … T-0.15
+
+### Open items
+- [ ] Docker Desktop (or another way to run PostgreSQL 17) on the dev machine
+- [ ] Regulatory questions pack (REGULATORY-CONSIDERATIONS-EGYPT §4): owner decided not to send for now
