@@ -1,0 +1,4 @@
+@import 'tailwindcss';
+
+/* Class-based dark mode: <html class="dark"> (system preference is resolved in App.tsx). */
+@custom-variant dark (&:where(.dark, .dark *));
