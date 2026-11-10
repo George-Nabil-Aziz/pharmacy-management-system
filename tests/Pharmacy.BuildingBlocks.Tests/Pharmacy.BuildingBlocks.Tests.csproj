@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="coverlet.collector" />
     <PackageReference Include="FluentAssertions" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" />
@@ -21,6 +22,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\src\BuildingBlocks\Pharmacy.BuildingBlocks.Domain\Pharmacy.BuildingBlocks.Domain.csproj" />
+    <ProjectReference Include="..\..\src\BuildingBlocks\Pharmacy.BuildingBlocks.Web\Pharmacy.BuildingBlocks.Web.csproj" />
   </ItemGroup>
 
 </Project>
